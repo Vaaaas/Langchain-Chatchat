@@ -23,7 +23,7 @@ services:
     runtime: nvidia
     # 模型源更改为 ModelScope, 默认为 HuggingFace
     environment:
-    - XINFERENCE_MODEL_SRC=modelscope
+      - XINFERENCE_MODEL_SRC=modelscope
   chatchat:
     image: chatimage/chatchat:0.3.1.3-93e2c87-20240829
     # image: ccr.ccs.tencentyun.com/chatchat/chatchat:0.3.1.2-2024-0720
